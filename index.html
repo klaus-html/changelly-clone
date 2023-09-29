@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Project Changelly</title>
+</head>
+<body>
+<section>
+        <!----------changelly header-------->
+<div class="container">
+    <div class="header">
+        <header>
+            <div class="head-1">
+                <h2 style="font-weight: lighter; color: black;">🚀changelly</h2> 
+                <button class="btn" onclick="myFunction()" >Personal <i class="fa fa-angle-down" style="font-size:24px"></i></button>
+                <div class="drop-content">
+                    <a href="#">Exchange</a>
+                    <a href="#">Buy</a>
+                    <a href="#">Sell</a>
+                    <a href="#">DeFi</a>
+                </div>
+                <button class="btn" onclick="mySecondFunction()">Business</button>
+                <div class="drop-content-2">
+                    <a href="#">API</a>
+                    <ul>
+                        <li>Exchange API</li>
+                        <li>Fiat API</li>
+                        <li>Pure DeFi</li>
+                    </ul>
+                    <a href="#">Affiliate Program</a>
+                    <a href="#">Listings</a>
+                </div>
+            </div>
+    
+            <div class="head-2">
+                <button>VIP Trade</button>
+                <a href=""><i class="fa fa-apple"></i> <i class="fab fa-google-play"> &#xf3ab;</i>Download app</a>
+                <a href="">Blog</a>
+                <a href="">FAQ</a>
+                <a href="">Support</a>
+                <a href="#flag" class="flag"><img src="./img/united-kingdom-flag-button-uk-flag-icon_97458-16.avif" style="height: 30px; width: 40px; border-radius: 50%;" alt=""></a>
+                <a href="#profile" class="flag-2"> <img src="./img/user.png" alt=""></a>
+            </div>
+        </header>
+    </div>
+</div>
+
+</section>
+<hr>
+
+<!-----------Exchange input-------->
+<section style="  background-image: url(./img/5594016-e1656071131636.jpg);" class="back">
+    <div class="container">
+        <div class="exchange-2">
+            <div class="exchange-3">
+                <div class="btn-1">
+                    <button onclick="exchange()">Exchange</button>
+                    <button onclick="myExchange()">Buy</button>
+                    <button>Sell</button>
+                    <button>DeFi</button>
+                </div>
+                <div class="Buy">
+                    <hr>
+                    <label for="you send"></label>
+                    <input type="text" placeholder="You send" class="inp-1">
+                    <select name="Bitcoin" id="">
+                        <option value="BTC">Bitcoin</option>
+                        <option value="ETH">Ethereum</option>
+                        <option value="XRP">XRP</option>
+                        <option value="USDT">USDT</option>
+                        <option value="Tether">Tether</option>
+                    </select> <br>
+    
+                    <label for="You get"></label>
+                    <input type="text" placeholder="You get" style="cursor: no-drop;">
+                    <select name="Ethereum" id="">
+                        <option value="ETH">Ethereum</option>
+                        <option value="BTC">Bitcoin</option>
+                        <option value="XRP">XRP</option>
+                        <option value="USDT">USDT</option>
+                        <option value="Tether">Tether</option>
+                    </select>
+                    <div><button class="btn-2">Exchange now</button></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="exchange-4">
+            <label for="you send"></label>
+            <input type="text" placeholder="You send" class="inp-1">
+            <select name="Bitcoin" id="">
+                <option value="BTC">Bitcoin</option>
+                <option value="ETH">Ethereum</option>
+                <option value="XRP">XRP</option>
+                <option value="USDT">USDT</option>
+                <option value="Tether">Tether</option>
+            </select> <br>
+
+            <label for="You get"></label>
+            <input type="text" placeholder="You get" style="cursor: no-drop;">
+            <select name="Ethereum" id="">
+                <option value="ETH">Ethereum</option>
+                <option value="BTC">Bitcoin</option>
+                <option value="XRP">XRP</option>
+                <option value="USDT">USDT</option>
+                <option value="Tether">Tether</option>
+            </select>
+            <div><button class="btn-2">Exchange now</button></div>
+        </div>
+
+
+        <div class="crypto">
+            <h2>Exchange any crypto</h2>
+        </div>
+
+        <div class="scrolling-letters ">
+            <h2>
+                <div class="latter">a</div>
+                <div class="latter">n</div>
+                <div class="latter">o</div>
+                <div class="latter">n</div>
+                <div class="latter">y</div>
+                <div class="latter">m</div>
+                <div class="latter">o</div>
+                <div class="latter">u</div>
+                <div class="latter">s</div>
+                <div class="latter">l</div>
+                <div class="latter">y</div>
+            </h2>
+        </div>
+        <div class="lead">
+            <p>Exchange Bitcoin and 500+ altcoins in a fast, simple, and secure way.</p>
+        </div>
+</section>
+
+<section class="pic">
+  <div class="container">
+      
+  <div class="group-img">
+    <div><img src="./img//Screenshot 2023-09-25 154352.png" alt=""></div>
+  </div>
+
+ </div>
+</section>
+
+<section class="pic">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+              <div>
+                <h2>Excellent since 2015</h2>
+                <h3>24/7 live support</h3>
+                <p>Our dedicated support team is available around <br> the clock to offer you personalised assistance.</p>
+                <h3>Best market rates</h3>
+                <p>Through partnerships with over 20 crypto trading <br> platforms, we strive to find the most competitive <br> rates for your transactions.</p>
+                <h3>Speedy transactions</h3>
+                <p>With an average transaction speed of 5-40 <br> minutes, we ensure you can swiftly take advantage <br> of market opportunities.</p>
+                <h3>Secure funds handling</h3>
+                <p>We do not store cryptocurrencies: instead, they are <br> sent directly to your wallet after the exchange for <br> the utmost security</p>
+              </div>
+            </div>
+            <div class="col-2">
+               <div>
+                <h2>💚 Users choose us</h2>
+                <h4>Claire S.</h4>
+                <p>I've used changelly.com over 30 times in the last <br> two years and the transactions always go smoothly. <br> Great service and I will continue to use it. Thanks!</p>
+                <h4>Charles</h4>
+                <p>Great service and quick transfer. Gonna use this <br> definitely more often, thanks.</p>
+                <h4>Ernest R.</h4>
+                <p>I was skeptical at first but changelly.com is legit. I <br> sent them BTC from coinbase wallet and received <br> ETH in Metamask.....</p>
+               </div>
+            </div>
+        </div>
+
+        <div class="row-2">
+            <div class="col-1">
+                <h2>Popular crypto</h2>
+               <p> <img src="./img/bitcoin.svg" alt="" style="width: 20px; height: 20px;"> BTC</p>
+               <p>ETH</p>
+               <p>XRP</p>
+               <p>ADA</p>
+            </div>
+            <div class="col-0">
+                <h2>Top gainers</h2>
+                <p>UOS</p>
+                <p>LOOM</p>
+                <p>STMX</p>
+                <p>BASEPTL</p>
+            </div>
+            <div class="col-3">
+                <h2>Top losers</h2>
+                <p>MEMAG</p>
+                <p>STC</p>
+                <p>SUKU</p>
+                <p>POLS</p>
+            </div>
+        </div>
+
+<!-----------------Subscribe form---------->
+        <div class="form">
+            <h2><i class="fa fa-envelope-o" style="font-size:36px; color: rgb(15, 197, 15);"></i> Subscribe for crypto updates</h2>
+            <form action="">
+                <label for="email"></label>
+                <input type="email" placeholder="Email">
+                <button>Subscribe</button>
+            </form>
+        </div>
+<!------------link to app store or playstore-->
+        <div class="app">
+            <div class="app-1">
+                <h2>Exclusive benefits of the <br> Changelly app</h2>
+                <p>Get <strong>better rates</strong> in the app and enjoy an <strong>exclusive discount</strong> <br> on your very first crypto exchange transaction. Don’t settle for <br> less when you can maximize your returns with us!</p>
+                <img src="./img/qr code.png" alt="">
+            </div>
+            <div class="img-1">
+                <img src="./img/mobiles.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<!------------commemt on app store or play store---------->
+<section class="pic">
+
+    <div class="container">
+        <div class="row-4">
+            <div class="col-4">
+                <h4>Javier L., AppStore</h4>
+                <p>⭐⭐⭐⭐</p>
+                <p>I am extremely delighted with <br> the exceptional service provided <br> by the Changelly crypto swap <br> app.</p>
+            </div>
+            <div class="col-5">
+                <h4>Chang Su, AppStore</h4>
+                <p>⭐⭐⭐⭐</p>
+                <p>Thank you. Love this! Good to <br> take a little profits here and <br> there.</p>
+            </div>
+            <div class="col-6">
+                <h4>Liam D., Google Play</h4>
+                <p>⭐⭐⭐⭐</p>
+                <p>very fast, very easy and super rates! <br> definitely recommend!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-------how to exchange crypto------->
+<section class="pic">
+
+    <div class="container">
+        <h2 class="currency">How to exchange cryptocurrency</h2>
+        <div class="pair-1">
+            <div class="pair">
+                <h2>1</h2>
+                <h4>Set the exchange pair</h4>
+                <p>Select the crypto pair you’d like to exchange</p>
+            </div>
+            <div  class="pair">
+                <h2>2</h2>
+                <h4>Enter your wallet address</h4>
+                <p>Enter your crypto wallet address to which <br> your cryptocurrency will be sent</p>
+            </div>
+        </div>
+        <div class="pair-2">
+            <div  class="pair">
+                <h2>3</h2>
+                <h4>Make a payment</h4>
+                <p>Send the crypto you’d like to exchange to the wallet <br> address you see on the screen</p>
+            </div>
+            <div  class="pair">
+                <h2>4</h2>
+                <h4>Wait for your coins to arrive</h4>
+                <p>Track the progress of your exchange and be ready to <br> get your crypto soo</p>
+            </div>
+        </div>
+
+<!---------Helpful guides FAQ Exchange--------->
+        <div class="ful">
+            <div class="guides">
+                <h1>Helpful guides</h1>
+                <div class="img-0">
+                    <img src="./img//Screenshot 2023-09-27 165543.png" alt="">
+                   <article class="img-0-1">
+                    <h3><a href="#">How to Exchange Crypto on Changelly: <br> A Step-by-Step Guide</a></h3>
+                    <p>Changelly offers a lot of various crypto <br> services, but the core of our platform has..</p>
+                   </article>
+                </div>
+                <div class="img-2">
+                    <img src="./img/Screenshot 2023-09-27 162001.png" alt="" >
+                  <article>
+                    <h2><a href="#">How to choose a wallet?</a></h2>
+                    <p>In this article, Changelly will consider the types <br> of wallets and explain which crypto wallet to....</p>
+                  </article>
+                </div>
+                <div class="img-3">
+                    <img src="./img/Screenshot 2023-09-27 165529.png" alt="">
+                  <article>
+                    <h2><a href="#">Transaction ID</a></h2>
+                    <p>So what is it, and how can it help you when <br> making crypto and fiat transactions?</p>
+                  </article>
+                </div>
+                <div class="img-4">
+                    <img src="./img/Screenshot 2023-09-27 162035.png" alt="">
+                    <article>
+                        <h2><a href="#">Cryptocurrency Hashing Algorithms <br>Explained</a></h2>
+                    <p>Cryptocurrency algorithms are a set of specific <br> cryptographic mechanisms and rules that</p>
+                    </article>
+                </div>
+                <div class="img-5">
+                    <img src="./img/Screenshot 2023-09-27 162050.png" alt="">
+                   <article>
+                    <h2><a href="#">If you sent the wrong coin or to the <br> wrong network</a></h2>
+                    <p>Please pay close attention to the network and <br>currency protocol displayed on our platform,...</p>
+                   </article>
+                </div>
+                <div class="img-6">
+                    <img src="./img/Screenshot 2023-09-27 162109.png" alt="">
+                  <article>
+                    <h2><a href="#">Investment Strategies and Tips</a></h2>
+                    <p>Become a successful crypto investor by <br>learning crypto investing basics and essentials.</p>
+                  </article>
+                </div>
+            </div>
+            <div class="FAQ">
+                <h1>FAQ Exchange</h1>
+                <div>
+                    <h2>Why should I trust Changelly?  <i class="fa fa-angle-down" style="font-size:24px"></i></h2>
+                    <p>Changelly is an instant cryptocurrency exchange that has been <br> operating on the market since 2015. We successfully serviced <br> millions of customers over this time and continue to provide <br> quick crypto-to-crypto exchanges and purchases to more than <br> 2.6 million users every month. In order to enhance the <br> functionality of our crypto exchange, we collaborate with the <br> leading companies in the industry. Our partners include the <br> giant cryptocurrency exchange platform Binance, secure <br> cryptocurrency wallets like Trezor, Exodus, and Coinomi, and <br> many others. Our dedicated Support team stands guard 24/7 <br> to help you with any exchange-related questions that might arise.</p>
+                </div>
+                <div>
+                    <h2>How to exchange cryptocurrencies? <i class="fa fa-angle-down" style="font-size:24px"></i></h2>
+                    <p>Changelly lets you exchange cryptocurrency in a fast and secure <br> way. Just sign up for a new account on changelly.com, choose <br> the cryptocurrency you would like to exchange, and click the <br> "Exchange now" button. Afterward, enter the address of your <br> digital wallet and wait for a bit. In several minutes, the <br> exchanged coins will arrive in your wallet.</p>
+                </div>
+                <div>
+                    <h2>What cryptocurrencies do you support? <i class="fa fa-angle-down" style="font-size: 24px;"></i></h2>
+                    <p>We support over 500 cryptocurrencies that are available for <br> instant crypto exchange and purchase at the best execution <br> prices. Since the crypto market is developing rapidly, we are <br> continually building up the list of crypto assets so you can <br> exchange, sell, and buy new digital currencies within minutes. <br> Exchange and buy Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), <br> Litecoin (LTC), and a wide variety of other crypto assets using <br> payment methods that suit you the most (Visa, Mastercard, <br> bank transfer, Apple Pay).</p>
+                </div>
+                <div>
+                    <h2>How long does it take to receive my<i class="fa fa-angle-down" style="font-size: 24px;"></i> <br> cryptocurrency? </h2>
+                    <p>Typically, a crypto money exchange takes around 10-40 minutes. <br> However, a cryptocurrency exchange might take more time <br> should there be congestion within a particular blockchain.</p>
+                </div>
+                <div>
+                    <h2>How can I contact you? <i class="fa fa-angle-down" style="font-size: 24px;"></i></h2>
+                    <p>You can contact us at any time via the Live chat below. Both the <br> Support team and the Changelly digital currency exchange <br> work 24/7 and will be glad to help. You can also send us an email <br> at support@changelly.com.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+<!---------footer of changelly----------->
+
+
+<footer>
+    <div class="container">
+        <div class="foot">
+            <div class="foot-link">
+                <ul>
+                    <li><a href="#twitter"><i class="fa fa-twitter" style="font-size:40px;color:blue"></i></a></li>
+                    <li><a href="#instagram"><i class="fa fa-instagram" style="font-size:40px;color:red"></i></a></li>
+                    <li><a href="#telegram"></a><i class="fa fa-telegram" style="font-size:40px;color:blue; background-color: white; border: none;"></i></li>
+                    <li><a href="#youtube"></a><i class="fa fa-youtube-play" style="font-size:40px;color:red"></i></li>
+                    <li><a href="#reddit"></a><i class="fa fa-reddit" style="font-size:40px;color:red"></i></li>
+                </ul>
+            </div>
+
+
+            <div>
+                ★trustpilot logo
+            </div>
+        </div>
+        <hr class="line">
+    </div>
+</footer>
+
+
+
+
+
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="index.js"></script>
+</body>
+</html>
